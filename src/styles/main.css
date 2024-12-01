@@ -19,14 +19,14 @@ body {
     color: #b2b2b2;
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
 header h2 {
     font-size: 1.6rem;
 }
 
-header .column{
+header .column {
     display: flex;
     align-items: center;
 }
@@ -37,7 +37,7 @@ header .column span {
     font-size: 1.19rem;
 }
 
-.volume-slider input{
+.volume-slider input {
     accent-color: #fff;
 }
 
@@ -66,7 +66,7 @@ header .column span {
 
 .keys-check input:checked::before {
     background-color: #fff;
-    left: 2.1rem;    
+    left: 2.1rem;
 }
 
 .piano-keys {
@@ -88,10 +88,9 @@ header .column span {
     height: 230px;
     border: 1px solid #000;
     border-radius: 8px;
-    background: linear-gradient(
-        #fff 96%, #eee 4%
-    );
+    background: linear-gradient(#fff 96%, #eee 4%);
 }
+
 .piano-keys .black {
     width: 44px;
     height: 140px;
@@ -99,9 +98,7 @@ header .column span {
     margin: 0 -22px 0 -22px;
     border: 1px solid #000;
     border-radius: 0 0 5px 5px;
-    background: linear-gradient(
-        #333, #000
-    );
+    background: linear-gradient(#333, #000);
 }
 
 .piano-keys span {
@@ -114,16 +111,12 @@ header .column span {
 
 .piano-keys .white:active {
     box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(
-        to botton #fff 0%,
-        #eee 100%
-    );
+    background: linear-gradient(to botton #fff 0%,
+            #eee 100%);
 }
 
 .piano-keys .black:active {
     box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.1);
-    background: linear-gradient(
-        to botton #000,
-        #434343
-    );
+    background: linear-gradient(to botton #000,
+            #434343);
 }
